@@ -17,8 +17,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Xenoveritas/abuse.git
-        tag: v0.9.0
-        commit: 47dee77120cdcf374d80c1968bdc317d850c2f77
+        tag: v0.9.1
+        commit: c855a923cd7fb27b629b4e1af78b1fcc5f263d01
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
