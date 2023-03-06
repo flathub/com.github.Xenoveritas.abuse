@@ -29,6 +29,6 @@ modules:
       - type: file
         path: com.github.Xenoveritas.abuse.appdata.xml
     post-install:
-      - install -Dm0644 com.github.Xenoveritas.abuse.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/com.github.Xenoveritas.abuse.png
+      - install -Dm0644 com.github.Xenoveritas.abuse.png ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/com.github.Xenoveritas.abuse.png
       - install -Dm0644 com.github.Xenoveritas.abuse.desktop ${FLATPAK_DEST}/share/applications/com.github.Xenoveritas.abuse.desktop
       - install -Dm0644 com.github.Xenoveritas.abuse.appdata.xml ${FLATPAK_DEST}/share/appdata/com.github.Xenoveritas.abuse.appdata.xml
