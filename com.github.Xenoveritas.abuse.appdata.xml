@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
-  <id>com.github.Xenoveritas.abuse.desktop</id>
+<component type="desktop-application">
+  <id>com.github.Xenoveritas.abuse</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>Abuse</name>
@@ -17,15 +17,16 @@
   </content_rating>
   <releases>
     <release version="0.9.1" date="2022-10-27"/>
-    <release date="2021-08-11" version="0.9.0"/>
-    <release date="2011-05-09" version="0.8"/>
+    <release version="0.9.0" date="2021-08-11"/>
+    <release version="0.8" date="2011-05-09"/>
   </releases>
   <screenshots>
-    <screenshot>
-      <image>http://abuse.zoy.org/raw-attachment/wiki/screenshots/title.png</image>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/AsciiWolf/com.github.Xenoveritas.abuse/refs/heads/screenshot/screenshots/1.png</image>
     </screenshot>
     <screenshot>
-      <image>http://abuse.zoy.org/raw-attachment/wiki/screenshots/abuse.png</image>
+      <image>https://raw.githubusercontent.com/AsciiWolf/com.github.Xenoveritas.abuse/refs/heads/screenshot/screenshots/2.png</image>
     </screenshot>
   </screenshots>
+  <launchable type="desktop-id">com.github.Xenoveritas.abuse.desktop</launchable>
 </component>
