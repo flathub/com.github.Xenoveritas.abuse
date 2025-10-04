@@ -1,6 +1,6 @@
 app-id: com.github.Xenoveritas.abuse
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 finish-args:
   - --device=all
@@ -14,6 +14,8 @@ command: abuse
 modules:
   - name: abuse
     buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
     sources:
       - type: git
         url: https://github.com/Xenoveritas/abuse.git
